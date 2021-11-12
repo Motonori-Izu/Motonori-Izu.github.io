@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-10T13:30:08.655Z</updated>
+  <updated>2021-11-12T12:10:42.805Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kali + Hexo + Github + ?</title>
+    <link href="http://example.com/2021/11/11/Kali-Hexo-Github/"/>
+    <id>http://example.com/2021/11/11/Kali-Hexo-Github/</id>
+    <published>2021-11-11T22:08:23.000Z</published>
+    <updated>2021-11-12T12:10:42.805Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一些坎坷的经历"><a href="#一些坎坷的经历" class="headerlink" title="一些坎坷的经历:"></a><del>一些坎坷的经历:</del></h1><p>我：我没下hexo？？<br>   → yum，为什么用不了？<br>   → 链接搞不通<br>   → win + kali ?<br>   → github403和那个什么错误<br>   → 买服务器，不会传<br>   → 国内版github注册+上传<br>   → github,hexo d成功了！！！<br>   → 纯文字页面get，传了但是好像没传<br>   → 重新hexo init blog1<br>   → 我复活了<br>   → 换主题又死了<br>   → hexo s！！！<br>   → 我真的复活了</p><h4 id="Find-a-thing-Chinese-input-method-cant-be-used-in-Mousepad-or-wenbenbianyiqi"><a href="#Find-a-thing-Chinese-input-method-cant-be-used-in-Mousepad-or-wenbenbianyiqi" class="headerlink" title="Find a thing: Chinese input method cant be used in Mousepad or wenbenbianyiqi !!!!!!!"></a>Find a thing: Chinese input method cant be used in Mousepad or wenbenbianyiqi !!!!!!!</h4><h1 id="Download-hexo"><a href="#Download-hexo" class="headerlink" title="Download hexo"></a>Download hexo</h1><p><a href="https://www.jianshu.com/p/e03e363713f9">link</a></p><h4 id="download-nvm"><a href="#download-nvm" class="headerlink" title="download nvm"></a>download nvm</h4><ol><li>Install:<br><code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash</code><br><em>OR</em><br><code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash</code>  </li><li>Environment variable:<br><code>export NVM_DIR=&quot;$HOME/.nvm&quot; [ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; . &quot;$NVM_DIR/nvm.sh&quot;</code>  </li><li>Test:<br><code>command -v nvm</code></li></ol><h4 id="install-node-js-through-nvm"><a href="#install-node-js-through-nvm" class="headerlink" title="install node.js through nvm"></a>install node.js through nvm</h4><p>Install the specified version of <strong>node.js</strong> : <code>nvm install 6.10.0</code> ,<br>or view all remote versions to select the desired version: <code>nvm ls-remote</code><br>If see version after <code>node -v</code> &amp; <code>npm -v</code>,nxt.</p><h4 id="install-hexo"><a href="#install-hexo" class="headerlink" title="install hexo"></a>install hexo</h4><ol><li>Install: <code>npm install -g hexo-cli</code></li><li>If see <strong>npm ERR!</strong> :<br> Do 1 after <code>npm config set user 0</code>&amp;<code>npm config set unsafe-perm true</code></li></ol><h1 id="Fight-with-yum"><a href="#Fight-with-yum" class="headerlink" title="Fight with yum"></a>Fight with yum</h1><p>It seems that <code>sudo apt-get install yum</code> will work, but only see <code>E: 无法定位软件包 yum</code>.<br><a href="https://blog.csdn.net/weixin_39825722/article/details/111514294?utm_term=kalilinux%E5%AE%89%E8%A3%85yum&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-3-111514294&spm=3001.4430">link</a><br>Ten thousand years later……<br>Failed.</p><h1 id="A-LINK"><a href="#A-LINK" class="headerlink" title="A LINK"></a>A LINK</h1><h1 id="win-kali"><a href="#win-kali" class="headerlink" title="win + kali"></a>win + kali</h1><p><a href="https://cnhuazhu.top/butterfly/2021/10/12/%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%88Ubuntu%EF%BC%89/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%88Ubuntu-20-04%EF%BC%89/">link</a></p><h1 id="Github’s-weeping"><a href="#Github’s-weeping" class="headerlink" title="Github’s weeping (?"></a>Github’s weeping (?</h1><h1 id="Sth-Dying"><a href="#Sth-Dying" class="headerlink" title="Sth Dying"></a>Sth Dying</h1><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一些坎坷的经历&quot;&gt;&lt;a href=&quot;#一些坎坷的经历&quot; class=&quot;headerlink&quot; title=&quot;一些坎坷的经历:&quot;&gt;&lt;/a&gt;&lt;del&gt;一些坎坷的经历:&lt;/del&gt;&lt;/h1&gt;&lt;p&gt;我：我没下hexo？？&lt;br&gt;   → yum，为什么用不了？&lt;br&gt;  </summary>
+      
+    
+    
+    
+    
+    <category term="blog" scheme="http://example.com/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -29,26 +51,6 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://example.com/2021/11/09/NiceTry/"/>
-    <id>http://example.com/2021/11/09/NiceTry/</id>
-    <published>2021-11-10T00:33:28.000Z</published>
-    <updated>2021-11-10T14:11:44.171Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><h5 id="5"><a href="#5" class="headerlink" title="5"></a>5</h5><h6 id="6"><a href="#6" class="headerlink" title="6"></a>6</h6><p><em>hello</em><br><em>world</em></p><hr><hr><hr><hr><hr><p><del><u><strong>where</strong></u></del><br><del><strong>are</strong></del><br><del><em><strong>you</strong></em></del><br><del><em><strong>now?</strong></em></del> </p><hr><hr><hr><p><del>ANSWER : SKYRIM!!!!!</del></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;h2 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2&quot;&gt;&lt;/a&gt;2&lt;/h2&gt;&lt;h3 id=&quot;3&quot;&gt;&lt;a </summary>
       
     
     
